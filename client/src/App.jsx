@@ -4,6 +4,7 @@ import { User1 } from './User'
 import About from './About'
 import Parent from './Parent'
 import Child1 from './Child1'
+import Click from './Click'
 const mockdata = {
   name: 'Sashwath',
   sash:'Roshini',
@@ -16,6 +17,7 @@ const App = () => {
       <User1/>
       <Parent></Parent>
       <Child1 {...mockdata} />
+      <Click></Click>
       <About></About>
     </div>
   )
