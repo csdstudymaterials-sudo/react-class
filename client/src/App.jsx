@@ -3,12 +3,19 @@ import {User} from './User'
 import { User1 } from './User'
 import About from './About'
 import Parent from './Parent'
+import Child1 from './Child1'
+const mockdata = {
+  name: 'Sashwath',
+  sash:'Roshini',
+  mob: '1235456'
+};
 const App = () => {
   return (
     <div>
       <User/>
       <User1/>
       <Parent></Parent>
+      <Child1 {...mockdata} />
       <About></About>
     </div>
   )
