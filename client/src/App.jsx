@@ -5,6 +5,7 @@ import About from './About'
 import Parent from './Parent'
 import Child1 from './Child1'
 import Click from './Click'
+import Form from './Form'
 const mockdata = {
   name: 'Sashwath',
   sash:'Roshini',
@@ -19,6 +20,7 @@ const App = () => {
       <Child1 {...mockdata} />
       <Click></Click>
       <About></About>
+      <Form></Form>
     </div>
   )
 }
