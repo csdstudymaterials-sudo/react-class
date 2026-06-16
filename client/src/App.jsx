@@ -1,12 +1,12 @@
 import React from 'react'
-import {User} from './User'
-import { User1 } from './User'
-import About from './About'
-import Parent from './Parent'
-import Child1 from './Child1'
-import Click from './Click'
-import Form from './Form'
-import InputSubmit from './InputSubmit'
+import {User} from './components/User'
+import { User1 } from './components/User'
+import About from './components/About'
+import Parent from './components/Parent'
+import Child1 from './components/Child1'
+import Click from './components/Click'
+import Form from './components/Form'
+import InputSubmit from './components/InputSubmit'
 const mockdata = {
   name: 'Sashwath',
   sash:'Roshini',
