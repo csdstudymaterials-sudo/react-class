@@ -14,7 +14,7 @@ const InputSubmit = () => {
         <form onSubmit={handle}>
 
       <input type="text" 
-      onChange={settext}
+      onChange={(e)=>setText(e.target.value)}
       placeholder='Enter Text'/>
       <button type='submit'>Submit</button>
        </form>
